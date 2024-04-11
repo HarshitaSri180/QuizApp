@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputTags{
+           
+            width:90%;
+        }
+        input{
+            width: 70%;
+            padding:14px;
+            margin:14px auto 14px;
+            border-radius:14px;
+        }
+        button{
+            width: 20%;
+            padding:14px;
+            margin:14px auto 14px;
+            border-radius:14px;
+            
+        }
+    </style>
+</head>
+<body>
+  
+   <div class="inputTags">
+  <input class="myInput" type="text" placeholder="Enter your Name here" /><br>
+  <input class="myInput" type="text" placeholder="Enter your Last here" /><br>
+  <input class="myInput" type="number" placeholder="Enter your no. here" /><br>
+  <input class="myInput" type="text" placeholder="Enter your Address here" /><br>
+  <input class="myInput" type="email" placeholder="Enter your Email here" /><br>
+  <input class="myInput" type="number" placeholder="Enter your dob here" /><br>
+  <button id="submit">Submit</button>
+</div>
+
+    <script>
+        
+
+
+  
+        document.getElementById("submit").addEventListener("click", function(e) {
+      let inputUser = document.querySelectorAll(".myInput");
+
+      // Iterate over each input to log its value
+      inputUser.forEach(function(input) {
+        // document.write("user input is:", input.value +"<br>")
+    console.log("user input is:", input.value);
+      });
+    });
+
+
+    </script>
+</body>
+</html>

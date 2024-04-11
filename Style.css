@@ -1,0 +1,123 @@
+/* *{
+    margin:0;
+    padding:0
+}
+body{
+    background: #001e4d;
+}
+.app{
+    margin:100px auto 0px;
+    border-bottom: 1px solid black;
+   background:white;
+    width:90%;
+    max-width:600px;
+    border-radius:10px;
+    padding:30px;
+
+
+
+}
+.app h1{
+    font-size:25px;
+    color:#001e4d;
+    font-weight:600;
+    border-bottom: 1px solid black;
+    padding:30px
+
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-weight: 25px;
+    padding:15px;
+    color:#001e4d;
+
+    
+
+}
+.btn{
+    background:white;
+    color:black;
+    display: block;
+    margin:34px auto 3px;
+    width:70%;
+    padding:15px;
+    text-align: left;
+    font-weight: 900;
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color:white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:disabled{
+    cursor:no-drop;
+
+}
+#next-btn{
+    background:white;
+    color:black;
+    display: block;
+    width:20%;
+    padding:5px;
+    margin:34px auto 3px;
+    font-weight: 900;
+}
+#next-btn:hover{
+background-color: black;
+color:white;
+transition:0.5s;
+cursor: pointer;
+}
+.correct{
+    background:#9aeabc;
+}
+.incorrect{
+    background:#ff9393;
+} */
+
+
+
+
+.btn {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: rgb(228, 140, 140);
+}
+.btn {
+text-align: justify;
+width: 50%;
+margin: 11px;
+padding: 10px;
+cursor: pointer;
+}
+
+.btn:hover{
+background-color: black;
+color:white;
+transition: all 0.5s;
+cursor: pointer;
+}
+h1.SimpleQuiz {
+    
+    text-align: center;
+}
+h2#question {
+    text-align: center;
+}
+#answers-button{
+    text-align: center;
+}
+div#answer-buttons {
+    text-align: center;
+}
